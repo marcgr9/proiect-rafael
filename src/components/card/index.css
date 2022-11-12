@@ -1,0 +1,35 @@
+.card {
+    width: var(--card-width);
+    aspect-ratio: 1 / 1.6;
+    padding: .5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+    border: 1px solid black;
+}
+
+.card__photo {
+    width: 90%;
+    aspect-ratio: 1;
+}
+
+.card__title {
+    font-size: larger;
+}
+
+.card__bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card__bottom-container .price {
+    flex: .2;
+    color: green;
+}

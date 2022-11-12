@@ -1,0 +1,26 @@
+.products-grid {
+    --grid-columns: 3;
+
+    display: grid;
+    grid-template-columns: repeat(var(--grid-columns), 1fr);
+    place-items: center;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    .products-grid {
+        --grid-columns: 5;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .products-grid {
+        --grid-columns: 6;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .products-grid {
+        --grid-columns: 7;
+    }
+}

@@ -18,3 +18,7 @@ p {
     max-width: 1300px;
     margin-inline: auto;
 }
+
+.cacat-de-combobox-container {
+    width: 20%;
+}

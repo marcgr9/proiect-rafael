@@ -73,9 +73,7 @@ export default function App() {
                     hideCaret
                     data={Object.values(Category)}
                     placeholder="Select a category"
-                    onSelect={(category) => {
-                        setCategory(category as Category)
-                    }}
+                    onSelect={(category) => setCategory(category as Category)}
                     onChange={value => !value && setCategory(undefined)}
                 />
             </div>
